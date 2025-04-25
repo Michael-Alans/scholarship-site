@@ -1,0 +1,82 @@
+[
+  {
+    "id": "1",
+    "title": "Harvard University Scholarship 2025",
+    "country": "United States",
+    "degree": "Undergraduate",
+    "description": "Full-tuition scholarship for outstanding international students. Covers living expenses and tuition.",
+    "deadline": "2025-01-15",
+    "link": "https://www.stampsscholars.org/",
+    "imageUrl": "https://www.scholarshipregion.com/wp-content/uploads/2024/01/Boustany-Foundation-MBA-Scholarship-in-Harvard-University-356x220.jpg"
+  },
+  {
+    "id": "2",
+    "title": "Chevening Scholarship",
+    "country": "United Kingdom",
+    "degree": "Masters",
+    "description": "UK government scholarship covering tuition fees, living allowance, and travel expenses.",
+    "deadline": "2024-11-01",
+    "link": "https://www.chevening.org/apply",
+    "imageUrl": "https://www.scholarshipregion.com/wp-content/uploads/2022/09/Stamps-Scholars-Program-356x220.jpg"
+  },
+  {
+    "id": "3",
+    "title": "DAAD Scholarship for Developing Countries",
+    "country": "Germany",
+    "degree": "Masters/PhD",
+    "description": "Scholarship for graduates from developing countries to study in Germany. Covers tuition, monthly stipend, and travel.",
+    "deadline": "2024-10-31",
+    "link": "https://www.daad.de/en/study-and-research-in-germany/scholarships-database/",
+    "imageUrl": "https://www.scholarshipregion.com/wp-content/uploads/2025/04/Delta-State-Scholarship-and-Bursary-2025-356x220.jpg"
+  },
+  {
+    "id": "4",
+    "title": "Fulbright Foreign Student Program",
+    "country": "United States",
+    "degree": "Masters/PhD",
+    "description": "Provides full funding for international students to pursue graduate studies or research in the U.S.",
+    "deadline": "2024-09-15",
+    "link": "https://foreign.fulbrightonline.org/",
+    "imageUrl": "https://www.scholarshipregion.com/wp-content/uploads/2025/04/Nosirat-Oluwabukola-Dada-graduates-from-LASU-with-4.59-first-class-in-Botany-356x220.jpg"
+  },
+  {
+    "id": "5",
+    "title": "Lester B. Pearson International Scholarship",
+    "country": "Canada",
+    "degree": "Undergraduate",
+    "description": "University of Toronto full scholarship for exceptional international students covering tuition, books, and accommodation.",
+    "deadline": "2024-12-01",
+    "link": "https://www.stampsscholars.org/",
+    "imageUrl": "https://www.scholarshipregion.com/wp-content/uploads/2023/03/Queen-Elizabeth-Commonwealth-Scholarship-356x220.jpg"
+  },
+  {
+    "id": "6",
+    "title": "Gates Cambridge Scholarship",
+    "country": "United Kingdom",
+    "degree": "Masters/PhD",
+    "description": "Fully-funded scholarship for outstanding applicants from outside the UK to pursue a full-time postgraduate degree at the University of Cambridge.",
+    "deadline": "2024-10-11",
+    "link": "https://www.gatescambridge.org/",
+    "imageUrl": "https://www.scholarshipregion.com/wp-content/uploads/2022/02/Khalifa-University-Scholarships--356x220.jpg"
+  },
+  {
+    "id": "7",
+    "title": "Swiss Government Excellence Scholarships",
+    "country": "Switzerland",
+    "degree": "Masters/PhD/Postdoc",
+    "description": "Offers scholarships for foreign scholars and artists to pursue postgraduate research in Switzerland.",
+    "deadline": "2024-11-30",
+    "link": "https://www.sbfi.admin.ch/scholarships_eng",
+    "imageUrl": "/images/swiss-scholarship.jpg"
+  },
+  {
+    "id": "8",
+    "title": "Australia Awards Scholarships",
+    "country": "Australia",
+    "degree": "Undergraduate/Masters",
+    "description": "Long-term development awards administered by the Department of Foreign Affairs and Trade. Covers full tuition, living expenses, and travel.",
+    "deadline": "2024-04-30",
+    "link": "https://www.dfat.gov.au/people-to-people/australia-awards/scholarships",
+    "imageUrl": "/images/australia-awards-scholarship.jpg"
+  }
+]

@@ -1,0 +1,186 @@
+:root {
+    --mainyellow: #EFD30B;
+    --yellow: #F9BE08;
+    --black: #1A1A19;
+    --white: #F9F8F4;
+    --gray: #DFDFD9;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 2rem;
+    background-color: #ffffff;
+    color: #000000;
+    border-bottom: 2px solid #ddd;
+    position: relative;
+    z-index: 1000;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+  }
+
+  a {
+    text-decoration: none;
+  }
+  
+  .nav {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+  }
+  
+  .nav-link {
+    color: #000000;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+    font-family: "Rale way", sans-serif;
+  }
+  
+  .nav-link:hover {
+    color: red;
+  }
+  
+  /* Theme toggle */
+  #toggle-theme {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+  }
+  
+  #toggle-theme span {
+    font-size: 0.9rem;
+  }
+  
+  /* Menu Toggler Button */
+  .menu-toggle {
+    display: none;
+    background: #000000;
+    font-size: 2rem;
+    color: #ffffff;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+  }
+  
+  /* Responsive for Mobile */
+  @media (max-width: 768px) {
+    .menu-toggle {
+      display: block;
+    }
+  
+    .nav {
+      display: none;
+      flex-direction: column;
+      background-color: #ffffff;
+      position: absolute;
+      top: 100%;
+      right: 2rem;
+      width: 100%;
+      padding: 1rem;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+    }
+  
+    .nav.active {
+      display: flex;
+    }
+  
+    .nav-link {
+      padding: 0.5rem 0;
+      border-bottom: 2px solid #ddd;
+    }
+  }
+  
+  .hero-section {
+    background-color: var(--mainyellow);
+    text-align: center;
+    padding: 2rem 1rem 2rem;
+  }
+
+  .hero-section h1 {
+    font-size: 3rem;
+    font-family: "Tagesschrift", sans-serif;
+  }
+
+  .hero-section p {
+    color: red;
+    font-weight: 700;
+    font-size: 1.3rem;
+  }
+
+  .form-container {
+    background-color: var(--mainyellow);
+    padding: 0 2rem 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .search {
+    background-color: var(--white);
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+  }
+
+  input[type="search"] {
+    padding: 13px;
+    font-size: 1rem;
+    border: 2px solid var(--gray);
+    border-radius: 5px;
+  }
+
+  .search button {
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 2rem;
+    background-color: var(--black);
+    color: var(--white);
+  }
+
+  .scholarships-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-auto-rows: minmax(200px, auto);
+    gap: 20px;
+    background-color: var(--white);
+    padding:  2rem;
+  }
+
+  @media(max-width:992px) {
+    .scholarships-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  @media(max-width:700px) {
+    .scholarships-grid {
+        grid-template-columns: 1fr;
+    }
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
