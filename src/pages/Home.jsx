@@ -1,18 +1,21 @@
 import { Link, data } from "react-router-dom"
 import React from "react"
-import scholarships from "/data/scholarships.json?url"
 
 export default function Home() {
 
+
     const [scholarships, setScholarships] = React.useState([])
+  
 
     React.useEffect(()=> {
        fetch('/data/scholarships.json')
        .then(res => res.json())
        .then(data => {
         
+
          const firstFourScholarships = data.slice(0, 4)
          setScholarships(firstFourScholarships)
+
          
 
        })
@@ -21,8 +24,9 @@ export default function Home() {
     },[])
 
     const scholarshipElements = scholarships.map(scholarship => (
+
         <div className="scholarshipCard" key={scholarship.id}>
-            <Link to={`/scholarshipDetails/${scholarship.id}`}>
+            <Link to={`/scholarships/${scholarship.id}`}>
             <img src={scholarship.imageUrl} alt={scholarship.title} />
             <h3 className="scholarshipTitle">{scholarship.title}</h3>
             <p className="degreeType">Degree type: {scholarship.degree}</p>
@@ -54,7 +58,14 @@ export default function Home() {
            <section className="scholarships-grid">
              {scholarshipElements}
            </section>
+
+           <div className="view-more-container">
+            <Link to="scholarships"><button type="button">More scholarships</button></Link>
+           </div>
+
+           
         </>
         
+
     )
 }

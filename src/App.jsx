@@ -11,6 +11,7 @@ import Masters from "./pages/scholarships/Masters"
 import Postgraduates from "./pages/scholarships/Postgraduate"
 import InterShips from "./pages/scholarships/Internships"
 import LayoutRoute from './components/LayoutRoute'
+import ScholarshipDetail from "./pages/ScholarshipDetail"
 
 
 
@@ -23,6 +24,7 @@ function App() {
        <Route path="/" element={<LayoutRoute />}>
          <Route index element={<Home />}/>
          <Route path="scholarships" element={<Scholarships />}/>
+         <Route path="scholarships/:id" element={<ScholarshipDetail/>}/>
          <Route path="winnersCorner" element={<WinnersConer />}/>
          <Route path="about" element={<About />}/>
          <Route path="contact" element={<Contact />}/>
