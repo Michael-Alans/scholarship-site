@@ -25,7 +25,10 @@ export default function Header() {
       </nav>
 
       <button className="menu-toggle" onClick={toggleMenu}>
-        {menuOpen ? "x" : "☰"}
+        {menuOpen ? (
+          <i className="fa fa-times"></i>
+         )
+        : "☰"}
       </button>
     </header>
   );

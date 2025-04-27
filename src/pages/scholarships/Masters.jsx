@@ -1,7 +1,7 @@
 import React from "react"
 
-export default function Home() {
+export default function Masters() {
     return(
-        <h1>Home page goes here</h1>
+        <h1>Masters page goes here</h1>
     )
 }

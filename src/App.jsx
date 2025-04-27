@@ -23,7 +23,12 @@ function App() {
        <Routes>
        <Route path="/" element={<LayoutRoute />}>
          <Route index element={<Home />}/>
-         <Route path="scholarships" element={<Scholarships />}/>
+         <Route path="scholarships" element={<Scholarships />}>
+         <Route index element={<Undergraduate />} />
+          <Route path="masters" element={<Masters />}/>
+          <Route path="postgraduate" element={<Postgraduates />}/>
+          <Route path="internships" element={<InterShips />}/>
+         </Route>
          <Route path="scholarships/:id" element={<ScholarshipDetail/>}/>
          <Route path="winnersCorner" element={<WinnersConer />}/>
          <Route path="about" element={<About />}/>

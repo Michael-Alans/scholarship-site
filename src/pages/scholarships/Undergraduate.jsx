@@ -1,7 +1,7 @@
 import React from "react"
 
-export default function Home() {
+export default function Undergraduate() {
     return(
-        <h1>Home page goes here</h1>
+        <h1>Undergraduate page goes here</h1>
     )
 }

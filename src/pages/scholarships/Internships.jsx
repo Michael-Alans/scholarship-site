@@ -1,7 +1,7 @@
 import React from "react"
 
-export default function Home() {
+export default function Internships() {
     return(
-        <h1>Home page goes here</h1>
+        <h1>Internships page goes here</h1>
     )
 }
