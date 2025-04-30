@@ -21,19 +21,19 @@
   },
   {
     "id": "3",
-    "title": "DAAD Scholarship for Developing Countries",
-    "country": "Germany",
-    "degree": "Masters/PhD",
-    "description": "Scholarship for graduates from developing countries to study in Germany. Covers tuition, monthly stipend, and travel.",
+    "title": "Google Summer Internship Program",
+    "country": "Multiple Countries",
+    "degree": "Internship",
+    "description": "Paid internship opportunities for students to work at Google offices worldwide. Open to undergraduates and graduates.",
     "deadline": "2024-10-31",
-    "link": "https://www.daad.de/en/study-and-research-in-germany/scholarships-database/",
-    "imageUrl": "https://www.scholarshipregion.com/wp-content/uploads/2025/04/Delta-State-Scholarship-and-Bursary-2025-356x220.jpg"
+    "link": "https://careers.google.com/students/",
+    "imageUrl": "https://www.scholarshipregion.com/wp-content/uploads/2022/02/Google-summer-internship-2022-356x220.jpg"
   },
   {
     "id": "4",
     "title": "Fulbright Foreign Student Program",
     "country": "United States",
-    "degree": "Masters/PhD",
+    "degree": "Postgraduate",
     "description": "Provides full funding for international students to pursue graduate studies or research in the U.S.",
     "deadline": "2024-09-15",
     "link": "https://foreign.fulbrightonline.org/",
@@ -51,32 +51,232 @@
   },
   {
     "id": "6",
-    "title": "Gates Cambridge Scholarship",
-    "country": "United Kingdom",
-    "degree": "Masters/PhD",
-    "description": "Fully-funded scholarship for outstanding applicants from outside the UK to pursue a full-time postgraduate degree at the University of Cambridge.",
+    "title": "Microsoft Research Internship",
+    "country": "Multiple Countries",
+    "degree": "Internship",
+    "description": "12-week internship for PhD students to work on cutting-edge research projects at Microsoft labs worldwide.",
     "deadline": "2024-10-11",
-    "link": "https://www.gatescambridge.org/",
-    "imageUrl": "https://www.scholarshipregion.com/wp-content/uploads/2022/02/Khalifa-University-Scholarships--356x220.jpg"
+    "link": "https://www.microsoft.com/en-us/research/academic-program/",
+    "imageUrl": "https://www.scholarshipregion.com/wp-content/uploads/2022/03/Microsoft-Disability-Scholarship-2022-356x220.jpg"
   },
   {
     "id": "7",
-    "title": "Swiss Government Excellence Scholarships",
+    "title": "ETH Zurich Excellence Scholarship",
     "country": "Switzerland",
-    "degree": "Masters/PhD/Postdoc",
-    "description": "Offers scholarships for foreign scholars and artists to pursue postgraduate research in Switzerland.",
+    "degree": "Masters",
+    "description": "For excellent students wishing to pursue a Master's degree at ETH Zurich. Covers living and study expenses.",
     "deadline": "2024-11-30",
-    "link": "https://www.sbfi.admin.ch/scholarships_eng",
-    "imageUrl": "/images/swiss-scholarship.jpg"
+    "link": "https://ethz.ch/",
+    "imageUrl": "https://www.scholarshipregion.com/wp-content/uploads/2022/04/ETH-Zurich-Excellence-Scholarship-356x220.jpg"
   },
   {
     "id": "8",
-    "title": "Australia Awards Scholarships",
-    "country": "Australia",
-    "degree": "Undergraduate/Masters",
-    "description": "Long-term development awards administered by the Department of Foreign Affairs and Trade. Covers full tuition, living expenses, and travel.",
+    "title": "UNICEF Internship Program",
+    "country": "Multiple Countries",
+    "degree": "Internship",
+    "description": "Opportunities for students to gain practical experience in international development and humanitarian work.",
     "deadline": "2024-04-30",
-    "link": "https://www.dfat.gov.au/people-to-people/australia-awards/scholarships",
-    "imageUrl": "/images/australia-awards-scholarship.jpg"
+    "link": "https://www.unicef.org/careers/internships",
+    "imageUrl": "https://www.scholarshipregion.com/wp-content/uploads/2022/05/UNICEF-Internship-Program-356x220.jpg"
+  },
+  {
+    "id": "9",
+    "title": "Erasmus Mundus Joint Masters Scholarships",
+    "country": "Multiple European Countries",
+    "degree": "Masters",
+    "description": "Fully-funded scholarships for international students to study in at least two European countries.",
+    "deadline": "2024-12-15",
+    "link": "https://erasmus-plus.ec.europa.eu/",
+    "imageUrl": "https://www.scholarshipregion.com/wp-content/uploads/2022/06/Erasmus-Mundus-Scholarship-356x220.jpg"
+  },
+  {
+    "id": "10",
+    "title": "Stanford University Undergraduate Scholarships",
+    "country": "United States",
+    "degree": "Undergraduate",
+    "description": "Need-based financial aid for international students at one of the world's top universities.",
+    "deadline": "2024-12-01",
+    "link": "https://financialaid.stanford.edu/",
+    "imageUrl": "https://www.scholarshipregion.com/wp-content/uploads/2022/07/Stanford-University-Scholarships-356x220.jpg"
+  },
+  {
+    "id": "11",
+    "title": "World Bank Summer Internship",
+    "country": "Multiple Countries",
+    "degree": "Internship",
+    "description": "Paid internship for graduate students to gain experience in international development and economics.",
+    "deadline": "2024-10-31",
+    "link": "https://www.worldbank.org/en/about/careers/internship",
+    "imageUrl": "https://www.scholarshipregion.com/wp-content/uploads/2022/08/World-Bank-Internship-356x220.jpg"
+  },
+  {
+    "id": "12",
+    "title": "Japanese Government (MEXT) Scholarship",
+    "country": "Japan",
+    "degree": "Postgraduate",
+    "description": "Full scholarship including tuition, monthly allowance, and round-trip airfare for international students.",
+    "deadline": "2024-05-31",
+    "link": "https://www.studyinjapan.go.jp/",
+    "imageUrl": "https://www.scholarshipregion.com/wp-content/uploads/2022/09/MEXT-Scholarship-356x220.jpg"
+  },
+  {
+    "id": "13",
+    "title": "MIT Undergraduate Research Opportunities",
+    "country": "United States",
+    "degree": "Undergraduate",
+    "description": "Research positions and scholarships for outstanding undergraduate students at MIT.",
+    "deadline": "2024-11-15",
+    "link": "https://urop.mit.edu/",
+    "imageUrl": "https://www.scholarshipregion.com/wp-content/uploads/2022/10/MIT-Scholarships-356x220.jpg"
+  },
+  {
+    "id": "14",
+    "title": "Commonwealth Masters Scholarships",
+    "country": "Multiple Countries",
+    "degree": "Masters",
+    "description": "For citizens of Commonwealth countries to study in other Commonwealth nations.",
+    "deadline": "2024-12-01",
+    "link": "https://cscuk.fcdo.gov.uk/",
+    "imageUrl": "https://www.scholarshipregion.com/wp-content/uploads/2022/11/Commonwealth-Scholarship-356x220.jpg"
+  },
+  {
+    "id": "15",
+    "title": "Goldman Sachs Summer Analyst Program",
+    "country": "Multiple Countries",
+    "degree": "Internship",
+    "description": "Summer internship for undergraduate students interested in investment banking and financial services.",
+    "deadline": "2024-10-15",
+    "link": "https://www.goldmansachs.com/careers/students/programs/",
+    "imageUrl": "https://www.scholarshipregion.com/wp-content/uploads/2022/12/Goldman-Sachs-Internship-356x220.jpg"
+  },
+  {
+    "id": "16",
+    "title": "University of Oxford Clarendon Scholarships",
+    "country": "United Kingdom",
+    "degree": "Postgraduate",
+    "description": "Full scholarships for graduate students of all nationalities at Oxford University.",
+    "deadline": "2024-12-15",
+    "link": "https://www.ox.ac.uk/clarendon",
+    "imageUrl": "https://www.scholarshipregion.com/wp-content/uploads/2023/01/Oxford-Clarendon-Scholarship-356x220.jpg"
+  },
+  {
+    "id": "17",
+    "title": "UN Summer Internship",
+    "country": "Multiple Countries",
+    "degree": "Internship",
+    "description": "Opportunities for students to work with United Nations agencies around the world.",
+    "deadline": "2024-03-31",
+    "link": "https://careers.un.org/",
+    "imageUrl": "https://www.scholarshipregion.com/wp-content/uploads/2023/02/UN-Internship-356x220.jpg"
+  },
+  {
+    "id": "18",
+    "title": "University of Sydney International Scholarship",
+    "country": "Australia",
+    "degree": "Postgraduate",
+    "description": "For international postgraduate students who demonstrate outstanding academic achievement.",
+    "deadline": "2024-09-30",
+    "link": "https://www.sydney.edu.au/",
+    "imageUrl": "https://www.scholarshipregion.com/wp-content/uploads/2023/03/Sydney-University-Scholarship-356x220.jpg"
+  },
+  {
+    "id": "19",
+    "title": "Facebook University Internship",
+    "country": "Multiple Countries",
+    "degree": "Internship",
+    "description": "8-week internship program for undergraduate students interested in tech careers.",
+    "deadline": "2024-06-01",
+    "link": "https://www.facebook.com/careers/students/",
+    "imageUrl": "https://www.scholarshipregion.com/wp-content/uploads/2023/04/Facebook-Internship-356x220.jpg"
+  },
+  {
+    "id": "20",
+    "title": "Yale University Undergraduate Scholarships",
+    "country": "United States",
+    "degree": "Undergraduate",
+    "description": "Need-based financial aid for international students at Yale University.",
+    "deadline": "2024-04-30",
+    "link": "https://finaid.yale.edu/",
+    "imageUrl": "https://www.scholarshipregion.com/wp-content/uploads/2023/05/Yale-University-Scholarship-356x220.jpg"
+  },
+  {
+    "id": "21",
+    "title": "TU Delft Excellence Scholarship",
+    "country": "Netherlands",
+    "degree": "Masters",
+    "description": "For excellent international applicants admitted to one of TU Delft's MSc programs.",
+    "deadline": "2024-12-01",
+    "link": "https://www.tudelft.nl/",
+    "imageUrl": "https://www.scholarshipregion.com/wp-content/uploads/2023/06/TU-Delft-Scholarship-356x220.jpg"
+  },
+  {
+    "id": "22",
+    "title": "JP Morgan Chase Internship",
+    "country": "Multiple Countries",
+    "degree": "Internship",
+    "description": "Summer internship programs for undergraduate and graduate students in finance and technology.",
+    "deadline": "2024-11-21",
+    "link": "https://careers.jpmorgan.com/",
+    "imageUrl": "https://www.scholarshipregion.com/wp-content/uploads/2023/07/JP-Morgan-Internship-356x220.jpg"
+  },
+  {
+    "id": "23",
+    "title": "University of British Columbia Scholarships",
+    "country": "Canada",
+    "degree": "Undergraduate",
+    "description": "Merit-based awards for international students entering undergraduate programs.",
+    "deadline": "2024-12-01",
+    "link": "https://www.ubc.ca/",
+    "imageUrl": "https://www.scholarshipregion.com/wp-content/uploads/2023/08/UBC-Scholarship-356x220.jpg"
+  },
+  {
+    "id": "24",
+    "title": "European Central Bank Internship",
+    "country": "Germany",
+    "degree": "Internship",
+    "description": "Opportunities for students to gain experience in central banking and economics.",
+    "deadline": "2024-10-31",
+    "link": "https://www.ecb.europa.eu/careers/html/index.en.html",
+    "imageUrl": "https://www.scholarshipregion.com/wp-content/uploads/2023/09/ECB-Internship-356x220.jpg"
+  },
+  {
+    "id": "25",
+    "title": "King's College London Global Scholarships",
+    "country": "United Kingdom",
+    "degree": "Postgraduate",
+    "description": "Range of scholarships for international postgraduate students across various disciplines.",
+    "deadline": "2024-03-01",
+    "link": "https://www.kcl.ac.uk/",
+    "imageUrl": "https://www.scholarshipregion.com/wp-content/uploads/2023/10/Kings-College-Scholarship-356x220.jpg"
+  },
+  {
+    "id": "26",
+    "title": "NASA Internship Program",
+    "country": "United States",
+    "degree": "Internship",
+    "description": "Opportunities for students to work on NASA missions and research projects.",
+    "deadline": "2024-12-15",
+    "link": "https://intern.nasa.gov/",
+    "imageUrl": "https://www.scholarshipregion.com/wp-content/uploads/2023/11/NASA-Internship-356x220.jpg"
+  },
+  {
+    "id": "27",
+    "title": "University of Edinburgh Global Scholarships",
+    "country": "United Kingdom",
+    "degree": "Masters",
+    "description": "Range of scholarships for international students across various disciplines.",
+    "deadline": "2024-04-01",
+    "link": "https://www.ed.ac.uk/",
+    "imageUrl": "https://www.scholarshipregion.com/wp-content/uploads/2023/12/Edinburgh-Scholarship-356x220.jpg"
+  },
+  {
+    "id": "28",
+    "title": "McKinsey & Company Summer Internship",
+    "country": "Multiple Countries",
+    "degree": "Internship",
+    "description": "Summer business internship for undergraduate and graduate students at top consulting firm.",
+    "deadline": "2024-09-30",
+    "link": "https://www.mckinsey.com/careers/students",
+    "imageUrl": "https://www.scholarshipregion.com/wp-content/uploads/2024/01/McKinsey-Internship-356x220.jpg"
   }
 ]

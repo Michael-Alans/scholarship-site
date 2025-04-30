@@ -1,18 +1,63 @@
 import React from "react";
-import { Outlet,  NavLink } from "react-router-dom";
+import { Outlet,  NavLink, useSearchParams, Link } from "react-router-dom";
+
 
 
 export default function Scholarships() {
+
+
+      const [scholarships, setScholarships] = React.useState([])
+      const [searchParams, setSearchParams ]   = useSearchParams()
+      const typeFilter = searchParams.get('type');
+      console.log(typeFilter)
+
+          
+  
+      React.useEffect(()=> {
+         fetch('/data/scholarships.json')
+         .then(res => res.json())
+         .then(data => {
+          
+           setScholarships(data)
+  
+         })
+  
+        
+      },[])
+
+      const displayedScholarship = typeFilter ? scholarships.filter(item => item.degree.toLowerCase()
+         === typeFilter.toLowerCase())
+        : scholarships
+
+      const scholarshipElements = displayedScholarship.map(
+
+        scholarship => (
+          <div className="scholarshipCard" key={scholarship.id}>
+            <Link to={`/scholarships/${scholarship.id}`}>
+            <img src={scholarship.imageUrl} alt={scholarship.title} />
+            <h3 className="scholarshipTitle">{scholarship.title}</h3>
+            <p className="degreeType">Degree type: {scholarship.degree}</p>
+            <p className="country">Country: {scholarship.country}</p>
+            <p className="deadline">Deadline: {scholarship.deadline}</p>
+            </Link>
+        </div>    
+        )
+
+      )
+
     return(
         <>
           
           <nav className="scholarship-page-header">
-            <NavLink to="." relative="path" end className="nav-link-color">Undergraduate</NavLink>
-            <NavLink to="masters" className="nav-link-color">Masters</NavLink>
-            <NavLink to="postgraduate" className="nav-link-color">Postgraduates</NavLink>
-            <NavLink to="internships" className="nav-link-color">Internships</NavLink>
+            <NavLink to="?type=undergraduate" className="nav-link-color">Undergraduate</NavLink>
+            <NavLink to="?type=masters" className="nav-link-color">Masters</NavLink>
+            <NavLink to="?type=postgraduate" className="nav-link-color">Postgraduates</NavLink>
+            <NavLink to="?type=internships" className="nav-link-color">Internships</NavLink>
           </nav>
           <Outlet />
+          <section className="scholarships-grid">
+             {scholarshipElements}
+           </section>
         </>
     )
 }
