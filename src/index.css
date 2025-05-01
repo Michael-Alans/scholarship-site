@@ -186,7 +186,7 @@ body {
 
   .scholarshipCard {
     color: #000000;
-    background-color: var(--white);
+    background-color: white;
     font-weight: 700;
     padding: 1rem;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
