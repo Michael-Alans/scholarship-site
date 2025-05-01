@@ -6,6 +6,12 @@ import { Outlet,  NavLink, useSearchParams, Link } from "react-router-dom";
 export default function Scholarships() {
 
 
+      const activeLink = {
+        color:"white",
+        borderBottom: "3px solid black",
+        fontWeigh: "bold"
+      }
+
       const [scholarships, setScholarships] = React.useState([])
       const [searchParams, setSearchParams ]   = useSearchParams()
       const typeFilter = searchParams.get('type');
@@ -49,10 +55,21 @@ export default function Scholarships() {
         <>
           
           <nav className="scholarship-page-header">
-            <NavLink to="?type=undergraduate" className="nav-link-color">Undergraduate</NavLink>
-            <NavLink to="?type=masters" className="nav-link-color">Masters</NavLink>
-            <NavLink to="?type=postgraduate" className="nav-link-color">Postgraduates</NavLink>
-            <NavLink to="?type=internships" className="nav-link-color">Internships</NavLink>
+            <NavLink to="?type=undergraduate" className="nav-link-color"
+            style={({isActive}) => isActive? activeLink :null}
+            >Undergraduate</NavLink>
+
+            <NavLink to="?type=masters" className="nav-link-color"
+            style={({isActive}) => isActive? activeLink :null}
+            >Masters</NavLink>
+
+            <NavLink to="?type=postgraduate" className="nav-link-color"
+            style={({isActive}) => isActive? activeLink :null}
+            >Postgraduates</NavLink>
+
+            <NavLink to="?type=internships" className="nav-link-color"
+            style={({isActive}) => isActive? activeLink :null}
+            >Internships</NavLink>
           </nav>
           <Outlet />
           <section className="scholarships-grid">
