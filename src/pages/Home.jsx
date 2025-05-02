@@ -29,8 +29,6 @@ export default function Home() {
             <Link to={`/scholarships/${scholarship.id}`}>
             <img src={scholarship.imageUrl} alt={scholarship.title} />
             <h3 className="scholarshipTitle">{scholarship.title}</h3>
-            <p className="degreeType">Degree type: {scholarship.degree}</p>
-            <p className="country">Country: {scholarship.country}</p>
             <p className="deadline">Deadline: {scholarship.deadline}</p>
             </Link>
          </div>

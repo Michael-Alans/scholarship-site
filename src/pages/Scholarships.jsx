@@ -1,16 +1,17 @@
 import React from "react";
 import { Outlet,  NavLink, useSearchParams, Link } from "react-router-dom";
+import Undergraduate from "./scholarships/Undergraduate";
 
 
 
 export default function Scholarships() {
 
 
-      const activeLink = {
+       const activeLink = {
         color:"white",
-        borderBottom: "3px solid black",
-        fontWeigh: "bold"
-      }
+        backgroundColor: "#1A1A19",
+        padding : "8px"
+      } 
 
       const [scholarships, setScholarships] = React.useState([])
       const [searchParams, setSearchParams ]   = useSearchParams()
@@ -42,8 +43,6 @@ export default function Scholarships() {
             <Link to={`/scholarships/${scholarship.id}`}>
             <img src={scholarship.imageUrl} alt={scholarship.title} />
             <h3 className="scholarshipTitle">{scholarship.title}</h3>
-            <p className="degreeType">Degree type: {scholarship.degree}</p>
-            <p className="country">Country: {scholarship.country}</p>
             <p className="deadline">Deadline: {scholarship.deadline}</p>
             </Link>
         </div>    
@@ -51,25 +50,41 @@ export default function Scholarships() {
 
       )
 
+      function handleFilterChange(key, value) {
+        setSearchParams(prevParams => {
+            if (value === null) {
+                prevParams.delete(key)
+            } else {
+                prevParams.set(key, value)
+            }
+            return prevParams
+        })
+    }
+
     return(
         <>
           
           <nav className="scholarship-page-header">
-            <NavLink to="?type=undergraduate" className="nav-link-color"
-            style={({isActive}) => isActive? activeLink :null}
-            >Undergraduate</NavLink>
 
-            <NavLink to="?type=masters" className="nav-link-color"
-            style={({isActive}) => isActive? activeLink :null}
-            >Masters</NavLink>
+           <button   className={`filter-links  ${typeFilter === "" ? "activeLink" : null}`}
+            onClick={()=> handleFilterChange("type", "")}
+            >All scholarships</button>
 
-            <NavLink to="?type=postgraduate" className="nav-link-color"
-            style={({isActive}) => isActive? activeLink :null}
-            >Postgraduates</NavLink>
+            <button className={`filter-links  ${typeFilter === "undergraduate" ? "activeLink" : null}`}
+            onClick={()=> handleFilterChange("type", "undergraduate")}
+            >Undergraduate</button>
 
-            <NavLink to="?type=internships" className="nav-link-color"
-            style={({isActive}) => isActive? activeLink :null}
-            >Internships</NavLink>
+            <button  className={`filter-links  ${typeFilter === "masters" ? "activeLink" : null}`}
+            onClick={()=> handleFilterChange("type", "masters")}
+            >Masters</button>
+
+            <button  className={`filter-links ${typeFilter === "postgraduate" ? "activeLink" : null}`}
+            onClick={()=> handleFilterChange("type", "postgraduate")}
+            >Postgraduates</button>
+
+            <button  className={`filter-links ${typeFilter === "internships" ? "activeLink" : null}`}
+            onClick={()=> handleFilterChange("type", "internships")}
+            >Internships</button>
           </nav>
           <Outlet />
           <section className="scholarships-grid">

@@ -1,5 +1,5 @@
 import React from "react"
-import {  useParams } from "react-router-dom"
+import {  useParams, Link } from "react-router-dom"
 
 
 export default function ScholarshipDetails() {
@@ -25,6 +25,17 @@ export default function ScholarshipDetails() {
     return(
 
         <div className="detailpage">
+          
+          <Link to=".."
+             relative="path"
+             end>
+
+            <div className="previous-page">
+            <button type="button"><i class="fas fa-arrow-left" aria-hidden="true"></i></button>
+            </div>
+
+          </Link>
+
            {scholarship ? (
            
             <div>
